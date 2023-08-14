@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "esModuleInterop": true,
+    "types": [
+      "node",
+      "@types/jest",
+    ],
+    "lib": [
+      "ES6"
+    ],
+    "outDir": "dist"
+  },
+  "extends": "../../tsconfig.json",
+  "include": [
+    "src/*.ts",
+    "src/**/*.ts",
+  ]
+}

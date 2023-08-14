@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "outDir": "dist",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+  },
+  "extends": "../../tsconfig.json",
+  "include": [
+    "src/*.ts",
+    "src/countries.json"
+  ]
+}
